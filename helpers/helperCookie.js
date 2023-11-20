@@ -20,7 +20,6 @@ const validarCookie = async ( req, res, next )=>{
         res.json(info)
         
     }
-
 }  
 export{
     validarCookie
